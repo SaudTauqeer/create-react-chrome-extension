@@ -1,6 +1,6 @@
 {
   "name": "create-react-chrome-extension-custom",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "keywords": [
     "chrome",
     "opera",
@@ -9,7 +9,7 @@
     "react",
     "hot reload"
   ],
-  "author": "Alexander Suevalov <suevalov.work@gmail.com>",
+  "author": "saud",
   "repository": "https://github.com/suevalov/create-react-chrome-extension",
   "description": "Create Chromium extensions with zero configuration",
   "license": "MIT",

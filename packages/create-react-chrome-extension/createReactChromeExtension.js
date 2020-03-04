@@ -116,7 +116,7 @@ function run(root, appName, version, verbose) {
 
   return install(root, devDependencies, verbose, true).then(() =>
     install(root, allDependencies, verbose, false).then(() => {
-      const init = require(`${root}/node_modules/react-chrome-extension-scripts-custom/scripts/init.js`);
+      const init = require(`${root}/node_modules/react-chrome-extension-scripts/scripts/init.js`);
       init(root, appName, verbose);
     })
   );

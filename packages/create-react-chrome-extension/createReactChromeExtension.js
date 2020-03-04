@@ -105,7 +105,7 @@ function install(root, dependencies, verbose, isDev) {
 
 function run(root, appName, version, verbose) {
   const allDependencies = [
-    "react-chrome-extension-scripts",
+    "react-chrome-extension-scripts-custom",
     "react",
     "react-dom"
   ];
@@ -116,7 +116,7 @@ function run(root, appName, version, verbose) {
 
   return install(root, devDependencies, verbose, true).then(() =>
     install(root, allDependencies, verbose, false).then(() => {
-      const init = require(`${root}/node_modules/react-chrome-extension-scripts/scripts/init.js`);
+      const init = require(`${root}/node_modules/react-chrome-extension-scripts-custom/scripts/init.js`);
       init(root, appName, verbose);
     })
   );

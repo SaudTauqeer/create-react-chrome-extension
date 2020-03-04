@@ -13,9 +13,9 @@ module.exports = (appPath, appName, originalDirectory) => {
 
   appPackage.dependencies = appPackage.dependencies || {};
   appPackage.scripts = {
-    start: "react-chrome-extension-scripts start",
-    build: "react-chrome-extension-scripts build",
-    generate: "react-chrome-extension-scripts generate",
+    start: "react-chrome-extension-scripts-custom start",
+    build: "react-chrome-extension-scripts-custom build",
+    generate: "react-chrome-extension-scripts-custom generate",
     precommit: "lint-staged"
   };
   appPackage["lint-staged"] = {

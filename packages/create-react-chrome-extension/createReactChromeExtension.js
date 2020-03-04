@@ -105,7 +105,7 @@ function install(root, dependencies, verbose, isDev) {
 
 function run(root, appName, version, verbose) {
   const allDependencies = [
-    "react-chrome-extension-scripts-custom",
+    "react-chrome-extension-scripts",
     "react",
     "react-dom"
   ];
